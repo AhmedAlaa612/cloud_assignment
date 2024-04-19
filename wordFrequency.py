@@ -7,6 +7,8 @@ def readParagraph(text):
         paragraph = file.read().replace('\n', ' ')
         stopWords = stopwords.words('english')
         paragraph = paragraph.lower()
+        # remove punctuations
+        paragraph = ''.join([char for char in paragraph if char.isalnum() or char == ' '])
         paragraph = ' '.join([word for word in paragraph.split() if word not in stopWords])
     return paragraph
 
