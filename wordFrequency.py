@@ -25,7 +25,8 @@ def main():
     nltk.download('stopwords')
     paragraph = readParagraph('paragraphs.txt')
     word_freq = wordFrequency(paragraph)
-    print(word_freq[:100])
+    for word in word_freq[:100]:
+        print(word[0], ":", word[1])
 
 if __name__ == '__main__':
     main()
