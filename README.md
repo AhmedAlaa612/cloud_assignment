@@ -6,7 +6,7 @@ A Python script that does the following
 - Read the contents of the "paragraphs.txt" file.
 - Remove stop words from the text using NLTK library.
 - Count the frequency of each word in the processed text.
-- Display the word frequency count to the console.
+- Display the word frequency count to the console(top 100 for easier display).
 
 
 The application is containerized using a Dockerfile for easy deployment and execution.
