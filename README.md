@@ -1,15 +1,15 @@
 
 # Word frequency counter
 
-A python script that does the following 
+A Python script that does the following 
 
 - Read the contents of the "paragraphs.txt" file.
-- Remove stop words from the text using a nltk library.
+- Remove stop words from the text using NLTK library.
 - Count the frequency of each word in the processed text.
-- Display the top 100 word frequency count to the console.
+- Display the top 100 frequent words and their frequencies.
 
 
-The application containerized using a Dockerfile for easy deployment and execution.
+The application is containerized using a Dockerfile for easy deployment and execution.
 
 
 
